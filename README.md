@@ -10,7 +10,7 @@ Artur de Vlieger Lima - 13671574
 
 João Gabriel Manfré Nazar - 13733652
 
-Pedro Augusto Monteiro Delgado -
+Pedro Augusto Monteiro Delgado - 13672766
 
 ---
 
