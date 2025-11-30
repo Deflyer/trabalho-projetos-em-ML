@@ -1,0 +1,17 @@
+Nome_do_campo,descricao_do_campo
+num_boletim,Numero do Boletim de Ocorrência. Exemplo: 206099.
+data_hora_boletim,Data e hora do acidente registrada no Boletim de ocorrência. Exemplo: 24/4/1999 18:10:00
+numero_envolvido,"Número do envolvido no acidente. Exemplo: 1 - Paulo Sergio da Silva, 2 - Lorival Oliveira Franco."
+condutor,"Indica se o envolvido no acidente e condutor ou nao. Valores possiveis: 'S'- sim, 'N' - Nao e 0 - Não informado."
+codigo_severidade,"Codigo da severidade. Exemplo: 0 - nao informado, 1 - nao fatal, 2 - fatal, 3 - sem ferimentos."
+desc_severidade,Descrição da severidade
+sexo,Sexo do envolvido. Valores possíveis: M-Masculino e F-Feminino.
+cinto_seguranca,"Indica se o envolvido no acidente estava usando o cinto de segurança. Valores possiveis: 'S' - sim, 'N' - não e '0' - Não informado."
+Embreagues,"Indica se o envolvido no acidente estava embriagado. Valores possiveis: 'S' - Sim, 'N' - não e '0' - Não informado."
+Idade,idade do envolvido. Exemplo: 26.
+nascimento,Data de nascimento do envolvido. Exemplo: 14/11/1974.
+categoria_habilitacao,"Codigo da categoria de habilitacao. Exemplo: IN - Inabilitado, N - Nao informado, B - veiculos motor, com ate 8 passageiros, peso maximo 3500 kg, C - veic. motor p/ transp. de carga, c/ peso max. aut. 3500 kg."
+descricao_habilitacao,"Calculado a partir do valor de ""categoria_habilitacao"" "
+especie_veiculo,"Descricao do codigo da especie do veiculo. Exemplos: 1 - bicicleta, 2 - ciclomotor, 3 - motoneta, 4 - motocicleta, 5 - triciclo, 6 - automovel."
+indicador_pedestre,"Indicativo de Pedestre (para os acidentes a partir de 2015). Exemplo: 0 - nao informado, S - Sim, N - Nao."
+indicador_passageiro,"Indicativo de Passageiro  (para os acidentes a partir de 2015). Exemplo: 0 - nao informado, S - Sim, N - Nao."

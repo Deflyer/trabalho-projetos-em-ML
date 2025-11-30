@@ -1,0 +1,21 @@
+Nome_do_campo,descricao_do_campo
+numero_boletim,Numero do Boletim de Ocorrência. Exemplo: 206099.
+data hora_boletim,Data e hora do acidente registrada no Boletim de ocorrência. Exemplo: 24/4/1999 18:10:00
+data_inclusao,Data do registro do boletim de ocorrência.
+tipo_acidente,"codigo do tipo de acidente. Exemplo: H01001 - abalroamento sem vitima,  H01002 - abalroamento com vitima."
+desc_tipo_acidente,Descricao do tipo de acidente.
+cod_tempo,"Codigo da condicao climatica no momento do acidente. Exemplo: 0 - Não informado, 1 - bom, 2 - chuva, 3 - neblina, 4 - nublado."
+desc_tempo,Calculado a partir de COD_TEMPO
+cod_pavimento,"codigo do pavimento do logradouro. Exemplo: 0 - nao informado, 1 - asfalto, 2 - concreto, 3 - terra, 4 - calcamento."
+pavimento,Calculado a partir de COD_PAVIMENTO
+cod_regional,"Numero da administracao regional. Ex.: 18 (Barreiro), 19 (Centro-Sul)."
+desc_regional,Calculado a partir de COD_REGIONAL
+origem_boletim,Nome do Batalhão da PM onde foi registrado o Boletim de Ocorrência.
+local_sinalizado,"Indica se o local do acidente e sinalizado. Valores possíveis: 0 - não informado, S- Sim e N-Nao."
+velocidade_permitida,"Velocidade máxima permitida para o local do acidente. Exemplo: 40, 60 Km."
+coordenada_x,Coordenada x do endereco referenciado no Boletim de Ocorrencia (UTM - SAD 69 fuso 23S).
+coordenada_y,Coordenada y do endereco referenciado no Boletim de Ocorrencia  (UTM - SAD 69 fuso 23S).
+hora_informada,Indicador de hora informada. Valores possiveis: S-Sim e N-Nao.
+indicador_fatalidade,Indicada se no acidente houve vitima fatal. Valores possiveis: S-Sim e N-Não.
+valor_ups,"Valor de unidade padrão de severidade. Valores possíveis: 1 - sem vítima, 5 - com vítima (não fatal) - 13 - com vítima fatal."
+descricao_ups,"Calculado a partir de ""VALOR_UPS"" Valor de unidade padrão de severidade. Valores possíveis: 1 - sem vítima, 5 - com vítima (não fatal) - 13 - com vítima fatal."

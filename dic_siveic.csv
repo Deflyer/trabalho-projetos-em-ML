@@ -1,0 +1,12 @@
+Nome_do_campo,descricao_do_campo
+numero_boletim,Numero do Boletim de Ocorrência. Exemplo: 206099.
+data_hora_boletim,Data e hora do acidente registrada no Boletim de ocorrência. Exemplo: 24/4/1999 18:10:00
+sequencial_veiculo,Numero sequencial de veículo relacionado a um Boletim de Ocorrencia. Identifica a quantidade de veiculos envolvidos em um acidente.
+codigo_categoria,"Codigo da categoria do veiculo. Exemplos:  0 - nao informado, 1 - oficial, 2 - missao diplomatica, 3 - particular, 4 - aluguel, 5 - aprendizagem."
+descricao_categoria,"Descricao do codigo da categoria do veiculo. Exemplos:  0 - nao informado, 1 - oficial, 2 - missao diplomatica, 3 - particular, 4 - aluguel, 5 - aprendizagem."
+codigo_especie,"Codigo da especie do veiculo. Exemplos: 1 - bicicleta, 2 - ciclomotor, 3 - motoneta, 4 - motocicleta, 5 - triciclo, 6 - automovel."
+descricao_especie,"Calculado a partir do valor de ""cod_especie""		tam 12"
+codigo_situacao,"Codigo da situacao do veiculo. Exemplos: 0 - nao informado, 1 - em movimento, 2 - parado."
+descricao_situacao,"Calculado a partir do valor de ""cod_situacao"" 		tam 14"
+tipo_socorro,"Codigo do tipo do socorro prestado para o acidente. Exemplo: 0 - nao informado, 1 - veiculo envolvido, 2 - viatura PMMG, 3 - ambulancia, 4 - terceiros."
+descricao_tipo_socorro,"Calculado a partir do valor de ""tipo_socorro""		tam 18"

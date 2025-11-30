@@ -1,0 +1,14 @@
+Nome_do_campo,descricao_do_campo
+numero_boletim,Numero do Boletim de Ocorrência. Exemplo: 206099.
+data_boletim,Data e hora do acidente registrada no Boletim de ocorrência. Exemplo: 24/4/1999 18:10:00
+sequencia_logradouros,"Sequencia do logradouro, quando for referenciando cruzamentos e entroncamentos ou entre ruas"
+numero_logradouro,Numero do logradouro que compoe o endereco.
+tipo_logradouro,"Codigo do tipo do logradouro. Exemplo: ROD (Rodovia), AVE (Avenida)."
+nome_logradouro,Descricao do nome do logradouro. Exemplo: 6333 (Olimpio Garcia).
+tipo_logradouro_anterior,Tipo do logradouro atribuido ao logradouro em momento anterior ao atual.
+nome_logradoro_anterior,Nome do logradouro atribuido ao logradouro em momento anterior ao atual.
+Numero_bairro,Código do bairro
+nome_bairro,Nome do bairro
+tipo_bairro,Tipo do bairro
+descricao_tipo_bairro,"Calculado a partir do valor de ""tipo_bairro"""
+numero_imovel,Número do imóvel
