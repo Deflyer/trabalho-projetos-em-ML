@@ -15,3 +15,5 @@ Pedro Augusto Monteiro Delgado -
 ---
 
 Nesse repositório, encontra-se o código do nosso assistente para exploração da base de dados com linguagem natual, para rodar, use streamlit run site.py
+
+Na atual  configuração, é necessario um .env com uma key do openrouter para rodar o programa
